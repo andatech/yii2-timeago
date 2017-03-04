@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\timeago;
+namespace anda\timeago;
 
 /**
  * @author Nghia Nguyen <yiidevelop@hotmail.com>

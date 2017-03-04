@@ -20,7 +20,7 @@ And add
 ## Usage
 
 ```
-<?= \yii\timeago\TimeAgo::widget(['timestamp' => $model->published_at]); ?>
+<?= \anda\timeago\TimeAgo::widget(['timestamp' => $model->published_at]); ?>
 ```
 
 

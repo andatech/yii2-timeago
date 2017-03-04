@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\timeago;
+namespace anda\timeago;
 
 use Yii;
 use yii\base\InvalidConfigException;
