@@ -87,9 +87,9 @@ class TimeAgo extends Widget
     {
         if ($this->timestamp) {
             echo Html::tag($this->tag,
-                Yii::$app->formatter->asDatetime($this->timestamp),
+                date('Y-m-d H:i:s',$this->timestamp),
                 ArrayHelper::merge([
-                    'datetime' => Yii::$app->formatter->asDatetime($this->timestamp, "php:c")
+                    'datetime' => date('c',$this->timestamp)
                 ], $this->options)
             );
         }
